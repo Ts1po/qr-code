@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(220, 15%, 55%);
+}
+
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.scan {
+    font-size: 15px;
+    font-weight: 700;
+    font-weight: 700;
+    color: hsl(212, 45%, 89%);
+}
+
+.attribution {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
